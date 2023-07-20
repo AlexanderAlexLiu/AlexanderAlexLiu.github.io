@@ -43,6 +43,7 @@ class GameTimer {
         this.seconds = 0
         clearInterval(this.interval_id)
         this.interval_id = null
+        this.display_timer()
     }
 
     update_timer() {
